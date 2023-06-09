@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.container img{
+    margin-top: 20px;
+}
+.search{
+    background-color: #EEEEEE;
+}
+/* Arama Bolumu */
+.links{
+    display: flex;
+   width: 100%;
+   margin-top: 2px;
+
+
+
+}
+.links .link-special{
+    display: block;
+    text-align: -webkit-center;
+    background-color: #7EE5DA;
+    width: 37%;
+ 
+
+}
+.link-help{
+    display: table-cell;
+    vertical-align: inherit;
+    width: 20%;
+    background-color: #70CCC2;
+    margin: 0 2px;
+}
+.link-input{
+    width: 43%;
+    background-color:#62B3AA ;
+}
+/* Footer */
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
+

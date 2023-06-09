@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Anasayfa */
+.container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+header h1{
+    color: crimson;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 5px;
+    list-style-type: none;
+}
+.container1 h2{
+  margin-bottom: 10px;
+  color: coral;
+}
+.container1 p{
+    margin-bottom: 10px;
+}
+.container1 h4{
+    color: darkgoldenrod;
+}
+
+/* Hakkimizda */
+
+.container2 h2{
+    text-align: center;
+    color: purple;
+    margin: 20px 0;
+}
+.container2 p{
+    margin: 20px 10px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.container2 h4{
+    margin: 20px 10px; 
+    color: darkgoldenrod;
+}
+/* Hakiimizda Bitis */
+
+/* Urunlerimiz Baslangic*/
+main h2{
+    color: purple;
+}
+main img{
+    width: 250px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+/* Urunlerimiz Bitis */

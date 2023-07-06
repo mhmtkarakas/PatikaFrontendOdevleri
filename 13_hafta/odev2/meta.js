@@ -12,19 +12,17 @@ function newElement() {
   var textNode = document.createTextNode(inputValue);
   li.appendChild(textNode);
   ul.appendChild(li);
- 
+
   // li ye tiklandiginda cizgi ekleme
   li.addEventListener("click", function () {
     if (this.style.textDecoration === "line-through") {
       this.style.textDecoration = "none";
-    this.style.backgroundColor = "transparent";
+      this.style.backgroundColor = "transparent";
     } else {
       this.style.textDecoration = "line-through";
-     this.style.backgroundColor = "blue";
+      this.style.backgroundColor = "blue";
     }
   });
-
-
 
   closeButton.innerHTML = "&times;";
   closeButton.className = "close-button";
@@ -34,8 +32,6 @@ function newElement() {
     event.stopPropagation();
     ul.removeChild(li);
   });
-
- 
 
   document.getElementById("task").value = "";
 }
